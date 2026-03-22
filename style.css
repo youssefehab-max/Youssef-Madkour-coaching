@@ -140,8 +140,12 @@ nav {
     border-radius: 0;
     border: none;
     box-shadow: none;
-    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 20%), linear-gradient(to top, transparent 0%, black 15%);
-    mask-image: linear-gradient(to left, transparent 0%, black 20%), linear-gradient(to top, transparent 0%, black 15%);
+    -webkit-mask-image: 
+        linear-gradient(to left, transparent 0%, transparent 8%, black 28%),
+        linear-gradient(to top, transparent 0%, black 15%);
+    mask-image: 
+        linear-gradient(to left, transparent 0%, transparent 8%, black 28%),
+        linear-gradient(to top, transparent 0%, black 15%);
     -webkit-mask-composite: source-in;
     mask-composite: intersect;
     filter: drop-shadow(-20px 0 40px rgba(0,0,0,0.8));
